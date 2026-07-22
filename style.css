@@ -1,1 +1,77 @@
- 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 12px 0;
+}
+.logo {
+  font-size: 35px;
+  font-weight: bold;
+  
+}
+.faisal {
+  color: #FD6E0A;
+}
+/* button */
+.common_btn{
+    padding: 12px 10px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.outline_btn{
+    padding: 12px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    
+    color: #FD6E0A;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #FD6E0A;
+
+}
+
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+  
+}
+ul li a {
+  text-decoration: none;
+}
+.hero_section_root{
+    background-color: #fcfcfc;
+}
+ .hero_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.text{
+    font-size: 25px;
+    
+}
